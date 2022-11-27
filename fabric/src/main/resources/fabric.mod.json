@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "awkard",
+  "version": "${version}",
+  "name": "Awkard",
+  "description": "Awkard adds compatibility for energy, tile entities and models",
+  "authors": [
+    "Adrikikicp"
+  ],
+  "contact": {
+    
+    "sources": "https://github.com/Akward-Lib/awkard"
+  },
+  "license": "MIT",
+  "icon": "awkard.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.awkard_lib.awkard.Awkard"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+  }
+}

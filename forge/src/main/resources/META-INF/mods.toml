@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+issueTrackerURL = "https://github.com/Akward-Lib/awkard/issues"
+license = "MIT"
+
+[[mods]]
+modId = "awkardlib"
+version = "${version}"
+displayName = "Awkard"
+authors = "Adrikikicp"
+description = '''
+Awkard  adds compatibility for energy, tile entities and models
+'''
+#logoFile = ""
+
+[[dependencies.awkardlib]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.awkardlib]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"

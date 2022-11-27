@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "awkard",
+    "version": "${version}",
+    "name": "Awkard",
+    "description": "Awkard adds compatibility for energy, tile entities and models ",
+    "authors": ["Adrikikicp"],
+    "contact": {
+      "sources": "https://github.com/Akward-Lib/awkard"
+    },
+    "license": "MIT",
+    "icon": "awkard.png",
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "environment": "*",
+    "entrypoints": {
+      "init": [
+        "com.awkard_lib.awkard.Main"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.19.2"
+      }     
+    ]
+  }
+}
