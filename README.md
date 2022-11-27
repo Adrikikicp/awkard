@@ -31,8 +31,12 @@ rootProject.name = "your-name"
 ```
 
 Add four folders:
-common
-fabric
-quilt
+common,
+
+fabric,
+
+quilt,
+
 forge
+
 and Use our example mod for the build.gradle or see the wiki
