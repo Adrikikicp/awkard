@@ -11,7 +11,7 @@ authors = "Adrikikicp"
 description = '''
 Awkard  adds compatibility for energy, tile entities and models
 '''
-#logoFile = ""
+logoFile = "awkard.png"
 
 [[dependencies.awkardlib]]
 modId = "forge"
