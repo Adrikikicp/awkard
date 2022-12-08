@@ -5,7 +5,7 @@ import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 
 
-public class Awkard implements ModInitializer {
+public class AwkardFabric implements ModInitializer {
 
     public void onInitialize(ModContainer container) {
         LogUtils.getLogger().info("Awkard lib");
